@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Square = ({value, onClick}) => {
+const Square = ({value, onClick, isWinningSquare }) => {
     
     return (
         
@@ -9,6 +9,7 @@ const Square = ({value, onClick}) => {
              type="button" 
              className="square" 
              onClick = {onClick}
+             style= {{fontWeight: isWinningSquare ? 'bold' : 'normal'}}
              >
                  {value}</button>
      
