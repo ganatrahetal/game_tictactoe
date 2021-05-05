@@ -43,3 +43,8 @@
   "keywords": [],
   "author": ""
 }
+
+"engines": {
+    "node": ">=14.6.1",
+    "npm": ">=7.11.2"
+  },
